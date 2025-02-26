@@ -1,0 +1,23 @@
+train:
+
+data:
+  tokenizer_name: "openai/clip-vit-large-patch14"
+para:
+  hid_dim: 256
+  dropout: 0.3
+  text_encoder: "openai/clip-vit-large-patch14"
+  num_frozen_layers: 4
+opt:
+  name: AdamW
+  lr: 5e-5
+  weight_decay: 5e-4
+sche:
+  name: DummyLR
+num_epoch: 15
+batch_size: 128
+text_encoder: "openai/clip-vit-large-patch14"
+seed: 2024
+model: ExMRD
+dataset: FakeTT
+type: temporal
+patience: 5
