@@ -8,6 +8,8 @@ This repo provides the official implementation of ExMRD as described in the pape
 
 *Following Clues, Approaching the Truth: Explainable Micro-Video Rumor Detection via Chain-of-Thought Reasoning* **(WWW'25 research track)**
 
+> [!IMPORTANT]  
+> For the latest updates, please refer to the original repository: [ronpay/ExMRD](https://github.com/ronpay/ExMRD).
 
 # Source Code Structure
 
